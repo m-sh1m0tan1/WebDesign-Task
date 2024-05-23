@@ -1,10 +1,39 @@
+th,td{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+th{
+    font-size: 20px;
+}
+
+td,caption{
+    font-weight: bold;
+}
+
+caption{
+    font-size: 25px;
+}
+img{
+    width: 50%;
+}
+
 table,th,td{
     border: solid 3px black;
     border-collapse: collapse;
 }   
-th{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+
+.wallpaper{
+    background-image: url(img/甘雨.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.white{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.character{
+    width: 50%;
 }
