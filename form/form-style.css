@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+a{
+    font-size: 0.7rem;
+}
+
+input[type]{
+    margin: 10px;
+}
+label{
+    font-size: 20px;
+}
+
+.wallpaper{
+    background-image: url(img/white_wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
