@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{
+    background-color: lightcyan;
+}
+
+.main{
+        width: 60%;
+        margin: 0 auto;
+}
+
+p{
+    text-align: center;
+}
+
+.required{
+    display: block;
+    margin-right: auto;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.mail,.password, .f_name, .l_name, .code, .add, .add_long, .tel{
+    height: 20px;
+}
+
+.mail, .add{
+    width: 300px;
+}
+
+.password{
+    width: 180px;
+}
+
+
+.f_name, .l_name{
+    width: 150px;
+}
+
+.code, .tel{
+    width: 100px;
+}
+
+
+.add_long{
+    width: 300px;
+}
+
+.pull{
+    width: 200px;
+    height: 30px;
+}
+
+table{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.l_button{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.r_button{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    margin: 0 0 0 auto;
+}
+
+.right{
+    text-align: right;
+}
